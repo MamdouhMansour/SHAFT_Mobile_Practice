@@ -8,4 +8,4 @@
 - Refer to the published SHAFT_Engine javadocs for detailed information on the available functions/classes/packages https://mohabmohie.github.io/SHAFT_ENGINE/
 - Refer to TestNG [https://testng.org/doc/documentation-main.html] and Allure Reporting [https://docs.qameta.io/allure/] documentation for using annotations
 
-**using_SHAFT_ENGINE** is a sample project to showcase how to get started using [SHAFT_Engine](https://github.com/MohabMohie/SHAFT_ENGINE/), and how to use some of its rich features, while applying the best practices for Test Automation project design. For a full list of the Supported features that you can use or try out, please refer to the parent project [SHAFT_Engine](https://github.com/MohabMohie/SHAFT_ENGINE/).
+**using_SHAFT_ENGINE** is a sample project to showcase how to get started using [SHAFT_Engine](https://github.com/MohabMohie/SHAFT_ENGINE/), and how to use some of its rich features, while applying the best practices for Test Automation project design. For a full list of the Supported features that you can use or try out, please refer to this [Read Me](https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/README.md) file.
