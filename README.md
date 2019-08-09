@@ -2,9 +2,17 @@
 <img src="https://drive.google.com/uc?export=download&id=1VHD9VsVHDndMjSV-wTVtCXUPHZ9AryO7" alt="SHAFT_ENGINE" style="display:block; margin-left:auto; margin-right:auto;"/>
 
 ### Getting Started:
-- Simply import this project to your eclipse (or favorite JAVA IDE).
-- You can refer to this sample tutorial on how to import an existing project into your workspace: https://tools.jboss.org/documentation/howto/git_import_projects.html#clone_uri
-- Make sure to refer to the latest version of SHAFT_Engine in your pom.xml file [ ![Download](https://api.bintray.com/packages/mohabmohie/SHAFT/SHAFT_Engine/images/download.svg) ](https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine/_latestVersion)
+1. Simply import this project to your eclipse (or favorite JAVA IDE).
+2. Watch this simple 5-minute live-demo:
+https://drive.google.com/file/d/1NxBpObvbBHdMjL4tl7PlpRNi7U9lMfW8/view
+
+### Creating your own project based on using_SHAFT_ENGINE:
+1. Make your own fork from the project <img src="https://drive.google.com/uc?export=download&id=1TIHfU4OamNjqEHFhasxw6tUw8YJwrItX" alt="using_SHAFT_ENGINE" style="display:block; margin-left:auto; margin-right:auto;"/>
+2. You can refer to this sample tutorial on how to import your new project into your workspace: https://tools.jboss.org/documentation/howto/git_import_projects.html#clone_uri
+3. After your project is successfully imported, you can explore the file structure, and add your own tests or test suites as needed.
+
+### Important Notes:
+- Always use the latest version of SHAFT_Engine in your pom.xml file [ ![Download](https://api.bintray.com/packages/mohabmohie/SHAFT/SHAFT_Engine/images/download.svg) ](https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine/_latestVersion)
 - Refer to the published SHAFT_Engine javadocs for detailed information on the available functions/classes/packages https://mohabmohie.github.io/SHAFT_ENGINE/
 - Refer to TestNG [https://testng.org/doc/documentation-main.html] and Allure Reporting [https://docs.qameta.io/allure/] documentation for using annotations
 
