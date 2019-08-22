@@ -31,6 +31,6 @@ public class SearchResults {
     public void assertResultLinkForSpecificResultIndex(int resultIndex, String expectedResultText) {
 	body_searchResults_dynamicSearchResultLink = By.xpath("(//cite)[" + resultIndex + "]");
 	Assertions.assertElementAttribute(browserObject, body_searchResults_dynamicSearchResultLink, "Text",
-		expectedResultText, AssertionComparisonType.EQUALS, AssertionType.POSITIVE);
+		expectedResultText, AssertionComparisonType.CONTAINS, AssertionType.POSITIVE);
     }
 }
