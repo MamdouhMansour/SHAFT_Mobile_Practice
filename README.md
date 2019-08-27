@@ -12,7 +12,7 @@ https://drive.google.com/file/d/1NxBpObvbBHdMjL4tl7PlpRNi7U9lMfW8/view
 3. After your project is successfully imported, you can explore the file structure, and add your own tests or test suites as needed.
 
 ### Important Notes:
-- Always use the latest version of SHAFT_Engine in your pom.xml file [ ![Download](https://api.bintray.com/packages/mohabmohie/SHAFT/SHAFT_Engine/images/download.svg) ](https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine/_latestVersion)
+- Always use the latest version of SHAFT_Engine in your pom.xml file [![Maven Central](https://img.shields.io/maven-central/v/io.github.mohabmohie/SHAFT_ENGINE.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.mohabmohie%22%20AND%20a:%22SHAFT_ENGINE%22)
 - Refer to the published SHAFT_Engine javadocs for detailed information on the available functions/classes/packages https://mohabmohie.github.io/SHAFT_ENGINE/
 - Refer to TestNG [https://testng.org/doc/documentation-main.html] and Allure Reporting [https://docs.qameta.io/allure/] documentation for using annotations
 
