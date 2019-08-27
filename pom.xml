@@ -2,14 +2,14 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.mohies</groupId>
+	<groupId>io.github.mohabmohie</groupId>
 	<artifactId>using_SHAFT_ENGINE</artifactId>
-	<version>2.6.20190822</version>
+	<version>3.0.20190827</version>
 	<name>Using SHAFT_ENGINE</name>
 	<description>This is a sample project to showcase how to get started using SHAFT_Engine, and how to use some of its rich features, while applying the best practices for Test Automation project design.</description>
 	<properties>
-		<!-- Make sure you point to the latest version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine/_latestVersion -->
-		<shaft_engine.version>2.6.20190822</shaft_engine.version>
+		<!-- Make sure you point to the latest version: https://search.maven.org/search?q=g:io.github.mohabmohie%20AND%20a:SHAFT_ENGINE&core=gav -->
+		<shaft_engine.version>3.0.20190827</shaft_engine.version>
 
 		<!-- The directory for your test suite files -->
 		<testSuite.directory>src\test\resources\TestSuites\</testSuite.directory>
@@ -35,26 +35,26 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.mohies</groupId>
+			<groupId>io.github.mohabmohie</groupId>
 			<artifactId>SHAFT_ENGINE</artifactId>
 			<version>${shaft_engine.version}</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.mohies</groupId>
+			<groupId>io.github.mohabmohie</groupId>
 			<artifactId>SHAFT_ENGINE</artifactId>
 			<version>${shaft_engine.version}</version>
 			<type>jar</type>
 		</dependency>
 		<dependency>
-			<groupId>com.mohies</groupId>
+			<groupId>io.github.mohabmohie</groupId>
 			<artifactId>SHAFT_ENGINE</artifactId>
 			<version>${shaft_engine.version}</version>
 			<type>jar</type>
 			<classifier>javadoc</classifier>
 		</dependency>
 		<dependency>
-			<groupId>com.mohies</groupId>
+			<groupId>io.github.mohabmohie</groupId>
 			<artifactId>SHAFT_ENGINE</artifactId>
 			<version>${shaft_engine.version}</version>
 			<type>jar</type>
