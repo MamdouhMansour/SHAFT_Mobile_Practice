@@ -2,7 +2,6 @@ package gui.objectModels.google;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import com.shaft.gui.element.ElementActions;
 import com.shaft.validation.Assertions;
 import com.shaft.validation.Assertions.AssertionComparisonType;

@@ -80,6 +80,7 @@ public class SimpleSearch {
      */
     @BeforeClass(alwaysRun = true)
     public void initializeGlobalObjectsAndNavigateToHomePage() {
+	System.setProperty("aiSupportedElementIdentification", "true");
 	// initializing the simpleSearch object by pointing it to the directory of the
 	// target test data file
 	simpleSearch = new ExcelFileManager(System.getProperty("testDataFolderPath") + "Google/SimpleSearch.xlsx");

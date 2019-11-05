@@ -3,6 +3,7 @@ package gui.objectModels.google;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.locators.RelativeLocator;
 
 import com.shaft.gui.browser.BrowserActions;
 import com.shaft.gui.element.ElementActions;
@@ -17,7 +18,8 @@ public class Home {
     private String pageTitle = "Google";
 
     private By body_googleLogo_image = By.id("hplogo");
-    private By body_searchBox_textField = By.xpath("//input[@id='lst-ib' or @class='lst' or @name='q']");
+//    private By body_searchBox_textField = By.xpath("//input[@id='lst-ib' or @class='lst' or @name='q']");
+    private By body_searchBox_textField_relative = RelativeLocator.withTagName("input").below(body_googleLogo_image);
 
     public Home(WebDriver browserObject) {
 	this.browserObject = browserObject;
@@ -28,8 +30,8 @@ public class Home {
     }
 
     public void searchForQuery(String searchQuery) {
-	ElementActions.type(browserObject, body_searchBox_textField, searchQuery);
-	ElementActions.keyPress(browserObject, body_searchBox_textField, Keys.ENTER);
+	ElementActions.type(browserObject, body_searchBox_textField_relative, searchQuery);
+	ElementActions.keyPress(browserObject, body_searchBox_textField_relative, Keys.ENTER);
     }
 
     public void assertGoogleLogoIsDisplayed() {
