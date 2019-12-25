@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.mohabmohie</groupId>
 	<artifactId>using_SHAFT_ENGINE</artifactId>
-	<version>4.0.20191208-alpha</version>
+	<version>4.0.20191225-alpha</version>
 	<name>Using SHAFT_ENGINE</name>
 	<description>This is a sample project to showcase how to get started using SHAFT_Engine, and how to use some of its rich features, while applying the best practices for Test Automation project design.</description>
 	<properties>
 		<!-- Make sure you point to the latest version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine -->
-		<shaft_engine.version>4.0.20191208-alpha</shaft_engine.version>
+		<shaft_engine.version>4.0.20191225-alpha</shaft_engine.version>
 		<org.slf4j.simpleLogger.defaultLogLevel>off</org.slf4j.simpleLogger.defaultLogLevel>
 
 		<!-- The directory for your test suite files -->

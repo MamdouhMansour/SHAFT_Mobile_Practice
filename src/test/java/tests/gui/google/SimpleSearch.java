@@ -1,4 +1,4 @@
-package gui.tests.google;
+package tests.gui.google;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
@@ -9,11 +9,11 @@ import com.shaft.gui.browser.BrowserFactory;
 import com.shaft.gui.browser.BrowserFactory.BrowserType;
 import com.shaft.tools.io.ExcelFileManager;
 
-import gui.objectModels.google.Home;
-import gui.objectModels.google.SearchResults;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+import objectModels.gui.google.Home;
+import objectModels.gui.google.SearchResults;
 
 /**
  * This class demonstrates how to use SHAFT_Engine for basic web GUI actions and

@@ -1,4 +1,4 @@
-package gui.objectModels.google;
+package objectModels.gui.google;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

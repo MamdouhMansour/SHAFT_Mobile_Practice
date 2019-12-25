@@ -1,13 +1,13 @@
-package api.tests.users;
+package tests.api.users;
 
 import org.testng.annotations.Test;
 
 import com.shaft.api.RestActions;
+import com.shaft.api.RestActions.RequestType;
 import com.shaft.validation.Assertions;
 import com.shaft.validation.Assertions.AssertionComparisonType;
 import com.shaft.validation.Assertions.AssertionType;
 
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class UserData {
@@ -15,7 +15,7 @@ public class UserData {
     @Test
     public void validateUserEmail() {
 	RestActions apiObject = new RestActions("https://jsonplaceholder.typicode.com");
-	Response users = apiObject.performRequest("GET", "200", "/users", null, null, null, ContentType.ANY);
+	Response users = apiObject.performRequest(RequestType.GET, 200, "/users");
 
 	Assertions.assertEquals("Leanne Graham", RestActions.getResponseBody(users), AssertionComparisonType.CONTAINS,
 		AssertionType.POSITIVE);
