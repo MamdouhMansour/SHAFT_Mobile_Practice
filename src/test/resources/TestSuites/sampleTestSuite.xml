@@ -6,7 +6,7 @@
 <suite name="My First Test Suite">
 	<test name="My First Test">
 		<classes>
-			<class name="gui.tests.google.SimpleSearch" />
+			<class name="tests.gui.google.SimpleSearch" />
 		</classes>
 	</test>
 </suite>
