@@ -4,19 +4,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.mohabmohie</groupId>
 	<artifactId>using_SHAFT_ENGINE</artifactId>
-	<version>4.0.20191208-alpha</version>
+	<version>4.0.20200123-beta</version>
 	<name>Using SHAFT_ENGINE</name>
 	<description>This is a sample project to showcase how to get started using SHAFT_Engine, and how to use some of its rich features, while applying the best practices for Test Automation project design.</description>
 	<properties>
-		<!-- Make sure you point to the latest version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine -->
-		<shaft_engine.version>4.0.20191208-alpha</shaft_engine.version>
+		<!-- Make sure you point to the latest in-house version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine -->
+		<shaft_engine.version>4.0.20200123-beta</shaft_engine.version>
 		<org.slf4j.simpleLogger.defaultLogLevel>off</org.slf4j.simpleLogger.defaultLogLevel>
 
 		<!-- The directory for your test suite files -->
 		<testSuite.directory>src\test\resources\TestSuites\</testSuite.directory>
 
 		<!-- The name of your testSuite file [without the file extension] -->
-		<testSuite.name>sampleTestSuite</testSuite.name>
+		<testSuiteName>sampleTestSuite</testSuiteName>
 
 		<!-- SHAFT_Engine Properties and other property files are read from the 
 			below location -->
@@ -30,8 +30,8 @@
 		<jdk.version>13</jdk.version>
 		<maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-		<maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version> <!-- 2.20 DO NOT UPDATE -->
-		<aspectj.version>1.9.5</aspectj.version> <!-- 1.8.10 DO NOT UPDATE -->
+		<maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
+		<aspectj.version>1.9.5</aspectj.version>
 	</properties>
 
 	<dependencies>
@@ -103,7 +103,7 @@
 							to define custom test suites programatically using the tests parameter. You 
 							can refer to this document for more steps: http://maven.apache.org/surefire/maven-surefire-plugin/examples/single-test.html -->
 						<suiteXmlFiles>
-							<suiteXmlFile>${testSuite.directory}${testSuite.name}.xml</suiteXmlFile>
+							<suiteXmlFile>${testSuite.directory}${testSuiteName}.xml</suiteXmlFile>
 						</suiteXmlFiles>
 						<encoding>${encoding.type}</encoding>
 						<inputEncoding>${encoding.type}</inputEncoding>
