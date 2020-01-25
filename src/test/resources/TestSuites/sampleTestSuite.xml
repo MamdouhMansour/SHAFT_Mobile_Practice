@@ -3,8 +3,18 @@
 <!-- Follow this guide to learn how to create and manipulate your test suites: 
 	https://testng.org/doc/documentation-main.html#testng-xml -->
 
-<suite name="My First Test Suite">
-	<test name="My First Test">
+<suite name="Sample Test Suite">
+	<test name="CLI Test">
+		<packages>
+			<package name="tests.cli.demo" />
+		</packages>
+	</test>
+	<test name="API Test">
+		<packages>
+			<package name="tests.api.users" />
+		</packages>
+	</test>
+	<test name="GUI Test">
 		<classes>
 			<class name="tests.gui.google.SimpleSearch" />
 		</classes>

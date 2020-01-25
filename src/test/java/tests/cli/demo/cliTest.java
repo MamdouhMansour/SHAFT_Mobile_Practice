@@ -10,9 +10,12 @@ import com.shaft.validation.Assertions.AssertionType;
 public class cliTest {
     @Test
     public void sampleTestCase() {
-	// does not work for windows
+	String commandToListFilesInCurrentDirectory = "ls";
+	if (System.getProperty("targetOperatingSystem").toLowerCase().contains("windows")) {
+	    commandToListFilesInCurrentDirectory = "cmd.exe /c dir";
+	}
 	TerminalActions localTerminal = new TerminalActions();
-	String consoleLog = localTerminal.performTerminalCommand("ls");
+	String consoleLog = localTerminal.performTerminalCommand(commandToListFilesInCurrentDirectory);
 	Assertions.assertEquals("pom.xml", consoleLog, AssertionComparisonType.CONTAINS, AssertionType.POSITIVE,
 		"Demoing local terminal actions");
     }
