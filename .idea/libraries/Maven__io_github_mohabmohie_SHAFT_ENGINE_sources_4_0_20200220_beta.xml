@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.github.mohabmohie:SHAFT_ENGINE:sources:4.0.20200220-beta">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/mohabmohie/SHAFT_ENGINE/4.0.20200220-beta/SHAFT_ENGINE-4.0.20200220-beta-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/mohabmohie/SHAFT_ENGINE/4.0.20200220-beta/SHAFT_ENGINE-4.0.20200220-beta-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/mohabmohie/SHAFT_ENGINE/4.0.20200220-beta/SHAFT_ENGINE-4.0.20200220-beta-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
