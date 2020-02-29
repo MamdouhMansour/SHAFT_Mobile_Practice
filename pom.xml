@@ -19,7 +19,7 @@
 
         <!-- The name of your testSuite file [without the file extension] -->
         <testSuiteName>sampleTestSuite</testSuiteName>
-        <customListeners.list>com.shaft.tools.listeners.AlterSuiteListener</customListeners.list>
+        <customListeners.list>com.shaft.tools.listeners.AlterSuiteListener,com.shaft.tools.listeners.InvokedMethodListener,com.shaft.tools.listeners.SuiteListener</customListeners.list>
 
         <!-- SHAFT_Engine Properties and other property files are read from the
             below location -->
