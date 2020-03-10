@@ -11,7 +11,7 @@
     </description>
     <properties>
         <!-- Make sure you point to the latest in-house version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine -->
-        <shaft_engine.version>4.0.20200220-beta</shaft_engine.version>
+        <shaft_engine.version>4.1.20200309</shaft_engine.version>
         <org.slf4j.simpleLogger.defaultLogLevel>off</org.slf4j.simpleLogger.defaultLogLevel>
 
         <!-- The directory for your test suite files -->
