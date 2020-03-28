@@ -88,7 +88,7 @@ public class SimpleSearch {
 	// initializing the browserObject by selecting one of the supported browsers
 	// Note: you can leave this empty and override the global default browser from
 	// your properties file
-	browserObject = BrowserFactory.getBrowser(BrowserType.GOOGLE_CHROME);
+	browserObject = BrowserFactory.getBrowser();
     }
 
     /**
