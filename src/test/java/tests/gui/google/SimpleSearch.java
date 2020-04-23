@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.shaft.gui.browser.BrowserFactory;
-import com.shaft.gui.browser.BrowserFactory.BrowserType;
 import com.shaft.tools.io.ExcelFileManager;
 
 import io.qameta.allure.Description;
