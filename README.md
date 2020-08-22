@@ -10,7 +10,9 @@ https://drive.google.com/file/d/1NxBpObvbBHdMjL4tl7PlpRNi7U9lMfW8/view
 
 ### Creating your own project based on using_SHAFT_ENGINE:
 1. Make your own fork from the project <img src="https://drive.google.com/uc?export=download&id=1TIHfU4OamNjqEHFhasxw6tUw8YJwrItX" alt="using_SHAFT_ENGINE" style="display:block; margin-left:auto; margin-right:auto;"/>
-2. You can refer to this sample tutorial on how to import your new project into your workspace: https://tools.jboss.org/documentation/howto/git_import_projects.html#clone_uri
+2. Check out the Maven Projects from Git (File - Import - Maven -Check out Maven Projects from SCM)
+2.1. On the window that is presented click the link "Find more SCM connectors in the m2e Marketplace" in the bottom right corner of the page.
+2.2. Search for "m2e-egit" and install it, then restart and continue.
 3. After your project is successfully imported, you can explore the file structure, and add your own tests or test suites as needed.
 
 ### Important Notes:
