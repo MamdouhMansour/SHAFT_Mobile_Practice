@@ -11,7 +11,7 @@
     </description>
 	<properties>
 		<!-- Make sure you point to the latest in-house version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine -->
-		<shaft_engine.version>4.3.20200629</shaft_engine.version>
+		<shaft_engine.version>4.3.20200810</shaft_engine.version>
 	</properties>
 	<repositories>
 		<repository>
@@ -44,13 +44,20 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<version>1.9.6</version>
+					</dependency>
+				</dependencies>
 				<configuration>
 					<failIfNoSpecifiedTests>false</failIfNoSpecifiedTests>
 					<failIfNoTests>false</failIfNoTests>
 					<encoding>UTF-8</encoding>
 					<argLine>
 						-Dtestng.dtd.http=true
-						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"
 					</argLine>
 					<properties>
 						<property>
@@ -59,17 +66,10 @@
 						</property>
 						<property>
 							<name>listener</name>
-                            <value>com.shaft.tools.listeners.AlterSuiteListener,com.shaft.tools.listeners.SuiteListener,com.shaft.tools.listeners.InvokedMethodListener,com.shaft.tools.listeners.CucumberFeatureListener</value>
+							<value>com.shaft.tools.listeners.AlterSuiteListener,com.shaft.tools.listeners.SuiteListener,com.shaft.tools.listeners.InvokedMethodListener,com.shaft.tools.listeners.CucumberFeatureListener</value>
 						</property>
 					</properties>
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.aspectj</groupId>
-						<artifactId>aspectjweaver</artifactId>
-						<version>1.9.5</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 		</plugins>
 	</build>

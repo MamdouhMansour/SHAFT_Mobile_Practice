@@ -1,0 +1,7 @@
+/target/
+/allure-results/
+.project
+.classpath
+*.bat
+*.sh
+*.prefs
