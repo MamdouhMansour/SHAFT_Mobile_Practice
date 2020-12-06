@@ -11,7 +11,7 @@
     </description>
 	<properties>
 		<!-- Make sure you point to the latest in-house version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine -->
-		<shaft_engine.version>4.4.20200921</shaft_engine.version>
+		<shaft_engine.version>4.4.20201206</shaft_engine.version>
 	</properties>
 	<repositories>
 		<repository>
@@ -33,8 +33,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-					<source>14</source>
-					<target>14</target>
+					<source>15</source>
+					<target>15</target>
 					<encoding>UTF-8</encoding>
 					<maxmem>10240m</maxmem>
 					<meminitial>10240m</meminitial>
