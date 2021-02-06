@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.mohabmohie</groupId>
 	<artifactId>using_SHAFT_ENGINE</artifactId>
-	<version>4.4.20200921</version>
+	<version>5.1.20210206</version>
 	<name>Using SHAFT_ENGINE</name>
 	<description>This is a sample project to showcase how to get started using SHAFT_Engine, and how to use some of its
         rich features, while applying the best practices for Test Automation project design.
     </description>
 	<properties>
 		<!-- Make sure you point to the latest in-house version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine -->
-		<shaft_engine.version>4.4.20201206</shaft_engine.version>
+		<shaft_engine.version>5.1.20210206</shaft_engine.version>
 	</properties>
 	<repositories>
 		<repository>
