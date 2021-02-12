@@ -24,7 +24,7 @@ public class A_Search_FlatTest_NativeSeleniumWebDriver {
     @Test
     public void navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed() {
 	System.out.println("Asserting that the Google logo is displayed");
-	Assert.assertTrue(driver.findElement(By.id("hplogo")).isDisplayed());
+	Assert.assertTrue(driver.findElement(By.xpath("//img[@id='hplogo' or @alt='Google']")).isDisplayed());
     }
 
     @Test

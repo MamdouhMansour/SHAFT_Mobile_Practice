@@ -24,7 +24,7 @@ public class B_Search_FlatTest_SHAFT {
 
     @Test
     public void navigateToGoogleHomeAndAssertGoogleLogoIsDisplayed() {
-	Assertions.assertElementMatches(driver, By.id("hplogo"), "Asserting that the Google logo is displayed");
+	Assertions.assertElementMatches(driver, By.xpath("//img[@id='hplogo' or @alt='Google']"), "Asserting that the Google logo is displayed");
     }
 
     @Test

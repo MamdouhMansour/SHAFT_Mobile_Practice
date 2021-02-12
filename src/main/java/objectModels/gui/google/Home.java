@@ -10,7 +10,7 @@ import com.shaft.gui.element.ElementActions;
 public class Home {
     private WebDriver driver;
     private String expectedPageTitle = "Google";
-    private By googleLogo_image = By.id("hplogo");
+    private By googleLogo_image = By.xpath("//img[@id='hplogo' or @alt='Google']");
     private By searchbox_text = By.name("q");
 
     public Home(WebDriver driver) {
