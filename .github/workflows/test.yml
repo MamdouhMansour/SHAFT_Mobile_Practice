@@ -29,7 +29,7 @@ jobs:
         run: docker ps
       - name: Run all tests
         continue-on-error: true
-        run: mvn test -DexecutionAddress="localhost:4444" -DtargetOperatingSystem="Linux-64" -DmaximumPerformanceMode="2" -DtargetBrowserName="GoogleChrome"
+        run: mvn test -DexecutionAddress="localhost:4444" -DtargetOperatingSystem="Linux-64" -DmaximumPerformanceMode="2" -DtargetBrowserName="GoogleChrome" -Dtest="!%regex[.*cucumber.*], !%regex[.*Runner.*]"
       - name: Generate Allure Report with history
         uses: simple-elf/allure-report-action@v1.3
         with:

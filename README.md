@@ -23,6 +23,7 @@ https://drive.google.com/file/d/1NxBpObvbBHdMjL4tl7PlpRNi7U9lMfW8/view
   [![Maven Central](https://img.shields.io/maven-central/v/io.github.mohabmohie/SHAFT_ENGINE?style=for-the-badge)](https://search.maven.org/search?q=g:%22io.github.mohabmohie%22%20AND%20a:%22SHAFT_ENGINE%22)
 - Refer to the published SHAFT_Engine javadocs for detailed information on the available functions/classes/packages https://mohabmohie.github.io/SHAFT_ENGINE/
 - Refer to TestNG [https://testng.org/doc/documentation-main.html] and Allure Reporting [https://docs.qameta.io/allure/] documentation for using annotations
+- Refer to the latest Sample Test Execution report for more info [https://mohabmohie.github.io/using_SHAFT_ENGINE/allure]
 
 ### IntelliJ:
 - As of SHAFT_Engine '4.0.20200220-beta' you can now use IntelliJ in addition to Eclipse to manage your test project.
