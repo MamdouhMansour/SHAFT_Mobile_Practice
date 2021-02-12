@@ -10,13 +10,14 @@
         rich features, while applying the best practices for Test Automation project design.
     </description>
 	<properties>
-		<!-- Make sure you point to the latest in-house version: https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine -->
-		<shaft_engine.version>5.1.20210206</shaft_engine.version>
+		<!-- Make sure you point to the latest in-house version: https://automatest.jfrog.io/artifactory/SHAFT_ENGINE/io/github/mohabmohie/SHAFT_ENGINE/ -->
+		<shaft_engine.version>5.1.20210212</shaft_engine.version>
 	</properties>
 	<repositories>
 		<repository>
-			<id>bintray-SHAFT_ENGINE</id>
-			<url>https://dl.bintray.com/mohabmohie/SHAFT</url>
+			<id>central</id>
+			<name>automatest-artifactory</name>
+			<url>https://automatest.jfrog.io/artifactory/SHAFT_ENGINE</url>
 		</repository>
 	</repositories>
 	<dependencies>

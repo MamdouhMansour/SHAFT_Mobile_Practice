@@ -5,3 +5,5 @@
 *.bat
 *.sh
 *.prefs
+/.idea/
+/using_SHAFT_ENGINE.iml
