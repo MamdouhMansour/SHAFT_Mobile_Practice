@@ -17,6 +17,7 @@ https://drive.google.com/file/d/1NxBpObvbBHdMjL4tl7PlpRNi7U9lMfW8/view
 
 ### Important Notes:
 - Always use the latest version of SHAFT_Engine in your pom.xml file
+  
   ![Bintray](https://img.shields.io/bintray/dt/mohabmohie/SHAFT/SHAFT_Engine?color=blue&label=Total%20Downloads&style=for-the-badge)
   [![Bintray](https://img.shields.io/bintray/v/mohabmohie/SHAFT/SHAFT_Engine?label=Bintray&style=for-the-badge)](https://bintray.com/mohabmohie/SHAFT/SHAFT_Engine/_latestVersion)
   [![Maven Central](https://img.shields.io/maven-central/v/io.github.mohabmohie/SHAFT_ENGINE?style=for-the-badge)](https://search.maven.org/search?q=g:%22io.github.mohabmohie%22%20AND%20a:%22SHAFT_ENGINE%22)

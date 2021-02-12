@@ -15,9 +15,12 @@
 	</properties>
 	<repositories>
 		<repository>
-			<id>central</id>
-			<name>automatest-artifactory</name>
+			<id>automatest-artifactory</id>
 			<url>https://automatest.jfrog.io/artifactory/SHAFT_ENGINE</url>
+		</repository>
+		<repository>
+			<id>central-2</id>
+			<url>https://repo.maven.apache.org/maven2</url>
 		</repository>
 	</repositories>
 	<dependencies>
