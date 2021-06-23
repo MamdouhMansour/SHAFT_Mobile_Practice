@@ -20,7 +20,9 @@ public class Account {
     }
 
     public Login clickOnLogin() {
-        new TouchActions(mobile).tap(login_account).performElementAction();
+        new TouchActions(mobile)
+        		.tap(login_account)
+        		.performElementAction();
         return new Login(mobile);
     }
 

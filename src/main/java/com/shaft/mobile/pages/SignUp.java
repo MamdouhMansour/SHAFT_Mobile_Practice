@@ -1,11 +1,13 @@
 package com.shaft.mobile.pages;
 
+import org.openqa.selenium.By;
+
 import com.shaft.gui.element.ElementActions;
 import com.shaft.gui.element.TouchActions;
+
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
-import org.openqa.selenium.By;
 
 public class SignUp {
 
@@ -46,6 +48,8 @@ public class SignUp {
     }
 
     public void dismissAd() {
-        new TouchActions(mobile).tap(dismissAdBtn).performElementAction();
+        new TouchActions(mobile)
+        		.tap(dismissAdBtn)
+        		.performElementAction();
     }
 }

@@ -2,7 +2,6 @@ package com.shaft.mobile.pages;
 
 import org.openqa.selenium.By;
 
-import com.shaft.gui.element.ElementActions;
 import com.shaft.gui.element.TouchActions;
 
 import io.appium.java_client.MobileBy;
@@ -22,16 +21,16 @@ public class Home {
 	}
 
 	public Home dismissAlert() {
-		//dismiss alert message
-		ElementActions.click(mobile, dismiss_alert);
-		//dismiss add message
-//		new SignUp(mobile).dismissAd();
+		// dismiss alert message
+		new TouchActions(mobile)
+				.tap(dismiss_alert);
 		return this;
 	}
 
 	// Generic method to click on navigation menu icons in home page
 	public void clickOnNavigationMenuLinks(String navigationLink) {
-		new TouchActions(mobile).tap(MobileBy.id(String.format(navigation_link, navigationLink)))
+		new TouchActions(mobile)
+				.tap(MobileBy.id(String.format(navigation_link, navigationLink)))
 				.performElementAction();
 	}
 
