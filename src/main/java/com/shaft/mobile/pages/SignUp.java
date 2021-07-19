@@ -2,7 +2,6 @@ package com.shaft.mobile.pages;
 
 import org.openqa.selenium.By;
 
-import com.shaft.gui.element.ElementActions;
 import com.shaft.gui.element.TouchActions;
 
 import io.appium.java_client.MobileBy;
@@ -30,19 +29,19 @@ public class SignUp {
 
     public SignUp fillRegistrationForm(String firstName, String lastName, String emailAddress, String password) {
         //to deal with the alert occasionally pop up
-        while (ElementActions.isElementDisplayed(mobile, dismissAdBtn)) {
-            dismissAd();
+//        while (ElementActions.isElementDisplayed(mobile, dismissAdBtn)) {
+//            dismissAd();
             new TouchActions(mobile).performElementAction()
                     .typeAppend(first_name, firstName)
                     .typeAppend(last_name, lastName)
-                    .click(SignUp.dismissAdBtn)
+//                  .click(SignUp.dismissAdBtn)
                     .typeAppend(email_field, emailAddress)
                     .typeAppend(password_field, password)
                     .click(male_checkbox)
                     .click(terms)
                     .click(login_button);
-            break;
-        }
+//            break;
+//        }
 
         return this;
     }

@@ -36,7 +36,7 @@ public class Login {
 //			}
 //		}
 		// to deal with the alert occasionally pop up
-		new SignUp(mobile).dismissAd();
+//		new SignUp(mobile).dismissAd();
 
 		new TouchActions(mobile).performElementAction()
 				.typeAppend(email_field, email)

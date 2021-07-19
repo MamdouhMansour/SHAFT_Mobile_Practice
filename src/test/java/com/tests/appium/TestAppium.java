@@ -1,7 +1,6 @@
 package com.tests.appium;
 import java.net.MalformedURLException;
 
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -10,6 +9,7 @@ import com.shaft.cli.FileActions;
 import com.shaft.gui.browser.BrowserFactory;
 import com.shaft.mobile.pages.Account;
 import com.shaft.mobile.pages.CountryScreen;
+import com.shaft.validation.Assertions;
 
 import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
@@ -18,7 +18,7 @@ public class TestAppium {
     private MobileDriver<MobileElement> mobile;
 
     private String englishLanguage = "English";
-    private String email = "test48QA@tes.com";
+    private String email = "test51QA@tes.com";
     private String password = "Aa12345#";
     private int countryIndex = 2;
 
@@ -33,7 +33,7 @@ public class TestAppium {
                 .clickOnCreateNewAccount()
                 .fillRegistrationForm("Test1", "Test1", email, password);
 
-        Assert.assertEquals(new Account(mobile).getAccountEmail(), email);
+        Assertions.assertEquals(new Account(mobile).getAccountEmail(), email);
     }
 
     @Test(dependsOnMethods = {"checkSuccessfulRegistration"})
@@ -46,7 +46,7 @@ public class TestAppium {
                 .clickOnLogin()
                 .loginUser(email, password);
 
-        Assert.assertEquals(new Account(mobile).getAccountEmail(), email);
+        Assertions.assertEquals(new Account(mobile).getAccountEmail(), email);
     }
 
     @SuppressWarnings("unchecked")
