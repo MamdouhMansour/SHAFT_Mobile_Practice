@@ -1,17 +1,17 @@
 package com.shaft.mobile.pages;
 
-import com.shaft.gui.element.TouchActions;
-import io.appium.java_client.MobileDriver;
-import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.shaft.gui.element.TouchActions;
 
 public class CountryScreen {
-    private MobileDriver<MobileElement> mobile;
+    private WebDriver mobile;
 
     private String profileIconExperssion = "(//*[@index='%d'])";
     private String languageSelection = "//*[contains(@text, '%s')]//parent::*";
 
-    public CountryScreen(MobileDriver<MobileElement> mobile) {
+    public CountryScreen(WebDriver mobile) {
         this.mobile = mobile;
     }
 

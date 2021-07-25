@@ -1,12 +1,11 @@
 package com.shaft.mobile.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 import com.shaft.gui.element.TouchActions;
 
 import io.appium.java_client.MobileBy;
-import io.appium.java_client.MobileDriver;
-import io.appium.java_client.MobileElement;
 
 public class Home {
 	private By dismiss_alert = By.id("android:id/button3");
@@ -14,9 +13,9 @@ public class Home {
 
 	private String account = "account";
 
-	MobileDriver<MobileElement> mobile;
+    private WebDriver mobile;
 
-	public Home(MobileDriver<MobileElement> mobile) {
+	public Home(WebDriver mobile) {
 		this.mobile = mobile;
 	}
 

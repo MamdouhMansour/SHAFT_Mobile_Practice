@@ -1,16 +1,15 @@
 package com.shaft.mobile.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 import com.shaft.gui.element.TouchActions;
 
 import io.appium.java_client.MobileBy;
-import io.appium.java_client.MobileDriver;
-import io.appium.java_client.MobileElement;
 
 public class SignUp {
 
-    private MobileDriver<MobileElement> mobile;
+    private WebDriver mobile;
 
     private By first_name = MobileBy.AccessibilityId("first_name");
     private By last_name = MobileBy.AccessibilityId("last_name");
@@ -23,7 +22,7 @@ public class SignUp {
     //will be called in login page
     public static By dismissAdBtn = MobileBy.id("com_ad4screen_sdk_popup_secondary_button");
 
-    public SignUp(MobileDriver<MobileElement> mobile) {
+    public SignUp(WebDriver mobile) {
         this.mobile = mobile;
     }
 

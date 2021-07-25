@@ -1,22 +1,21 @@
 package com.shaft.mobile.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 import com.shaft.gui.element.TouchActions;
 
 import io.appium.java_client.MobileBy;
-import io.appium.java_client.MobileDriver;
-import io.appium.java_client.MobileElement;
 
 public class Login {
-	private MobileDriver<MobileElement> mobile;
+    private WebDriver mobile;
 
 	private By create_new_account = MobileBy.id("com.jumia.android:id/login_email_create_account");
 	private By email_field = MobileBy.AccessibilityId("email");
 	private By password_field = MobileBy.AccessibilityId("password");
 	private By login_button = MobileBy.id("login_button_continue");
 
-	public Login(MobileDriver<MobileElement> mobile) {
+	public Login(WebDriver mobile) {
 		this.mobile = mobile;
 	}
 
